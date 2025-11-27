@@ -123,6 +123,7 @@ col_header, col_nav = st.columns([6, 1])
 with col_header:
     st.markdown('<div class="main-header">CiteMentor</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">The Attribution-Aware Knowledge Engine</div>', unsafe_allow_html=True)
+    st.markdown("Ask about **Wealth**, **Relationships**, or **Philosophy**.")
 
 with col_nav:
     st.write("") 

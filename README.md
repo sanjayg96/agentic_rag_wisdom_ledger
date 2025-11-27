@@ -2,7 +2,7 @@
 
 ### *Pay only for the wisdom you use.*
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agentic-rag-citementor.streamlit.app/) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-v0.1-green)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-orange)
 
