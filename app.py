@@ -1,6 +1,23 @@
 import streamlit as st
 import time
 import pandas as pd
+
+import nltk
+
+# ==========================================
+# 0. NLTK FIX FOR STREAMLIT CLOUD
+# ==========================================
+# We explicitly download the required NLTK data before anything else runs.
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab')
+
 from rag_engine import RAGEngine
 
 # ==========================================
